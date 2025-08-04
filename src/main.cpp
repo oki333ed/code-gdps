@@ -148,6 +148,7 @@ class $modify(MenuLayer) {
     }
 };
 // Хы Window Resize
+#ifdef _WIN32
 $execute {
 	const auto unwrapOrWarn = [](const auto& result) -> Patch* {
 		if (result.isErr()) {
@@ -170,6 +171,7 @@ $execute {
 		(void) patch1->enable();
 	}
 }
+#endif
 // Icon Hack
 class $modify(IconHack, GameManager) {
     bool isIconUnlocked(int id, IconType type) { return true; } // Иконки
