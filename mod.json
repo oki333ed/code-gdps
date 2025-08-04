@@ -1,0 +1,27 @@
+{
+	"geode": "4.7.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "oki3ed.codygdps",
+	"name": "Code$GDPS",
+	"version": "v1.0.1",
+	"developer": "oki3ed",
+	"description": "Mod...",
+    "resources": {
+        "sprites": [
+            "resources/*.png"
+        ]
+    },
+	"dependencies": {
+		"geode.node-ids": ">=v1.21.0"
+	},
+    "links": {
+        "homepage": "https://codygdps.ps.fhgdps.com",
+        "source": "https://github.com/oki333ed/code-gdps",
+        "community": "https://codygdps.ps.fhgdps.com/socials"
+    }
+}
